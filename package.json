@@ -1,0 +1,28 @@
+{
+  "name": "day5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "test": "vitest run tests",
+    "test:watch": "vitest tests",
+    "coverage": "vitest run --coverage",
+    "coverage:watch": "vitest --coverage" 
+    
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "@vitest/coverage-v8": "^4.1.11",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
